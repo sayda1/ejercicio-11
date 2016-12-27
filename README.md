@@ -1,5 +1,5 @@
 # ejercicio-11
-Inicio:
+Inicio:Post Negativo
 
 ## variables
 - a
@@ -12,4 +12,5 @@ Inicio:
 - si (a = negativo && b = positivo) retorna 0
     sino (a =negativo && b = negativo)
     retorna 0
+
 *fin*

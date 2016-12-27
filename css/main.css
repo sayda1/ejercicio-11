@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/negro.jpg);
+    color: #eb6beb;
+    text-align: center;
+    margin: 15% 0;
+    font-family: cursive;
+    font-size: 25px;
+}
+button{
+    background: none;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+input{
+    text-align: center;
+}
