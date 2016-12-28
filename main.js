@@ -1,15 +1,15 @@
 function calcular(){
-    var a = document.getElementById("a");
-    var b =document.getElementById("b");
-    var b1=b.value;
-    var a1=a.value;
+    var a1 = parseInt(document.getElementById("a").value);
+    var b1 =parseInt(document.getElementById("b").value);
+    var negativo=parseInt(document.getElementById("negativo").value); 
     
     var salida =document.getElementById("salida");
-    
-    if(a1>0 && b1>0){
-        salida.innerHTML="0";
-    }
-    else{
+    console.log("gf");
+    if( ((a1>0 && b1<0) || (a1<0 && b1>0)) && negativo==2){
         salida.innerHTML="1";
+    }else if( a1<0 && b1<0 && negativo==1){
+     salida.innerHTML="1";
+    }else{
+        salida.innerHTML="0";    
     }
 }
